@@ -24,3 +24,11 @@ Cada arquivo corresponde à resolução de uma questão, tais estão enumerados 
               
             
 ## Desenvolvimento
+#Questão 1:
+Foi usado um ciclo for, o qual se repete o mesmo número de vezes do inteiro (n) inserido para adicionar as linhas à string. Foi criada uma condição if para separar a primeira linha das demais, para não incluir a expressão '\n' que foi usada para fazer a quebra de linha das demais. Todas as linhas se alteram decrescendo o número de espaços " " e incrementando o número de "*".
+
+#Questão 2:
+O código retorna diretamente o número de caracteres extras necessários caso o tamanho da senha seja menor 6. Caso siga, cada caractere é analisado num ciclo for e passa por 4 condições as quais, caso verificadas aumentam a variável correspondente a cada condição em 1. Para que a senha seja forte, todas as variáveis precisam ter valores maiores do que 1. Caso contrário retorna qual incremento precisa ser feito.
+
+#Questão 3:
+Para definir os anagramas possíveis são feitos ciclos em cadeia, o primeiro ciclo (while), altera a quantidade de caracteres no anagrama. A comparação é feita definindo um conjunto de referência dentro de um ciclo for. Em seguida, inserido dentro deste ciclo, outro ciclo for é feito gerando as combinações de caracteres seguintes. São comparadas a string de referência e a sequente, caso contenham os mesmos caracteres, independente da ordem, são consideradas anagramas e incrementam o total de anagramas pares em 1. 
