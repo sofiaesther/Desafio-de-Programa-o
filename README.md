@@ -1,4 +1,4 @@
-## Desafio-de-Programação
+## Desafio de Programação
 Esses códigos tem como objetivo solucionar as questões do desafio de programação da Capgemini. A linguagem de programação escolhida para responder às questões foi Python. Contém 3 arquivos .py os quais cada um é uma função que responde diretamente a cada questão do desafio.
 
 ## Instalação
